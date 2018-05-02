@@ -1,0 +1,50 @@
+<!--index.wxml-->
+<view class='page page-index'>
+
+  <view class='page-body'>
+
+    <view class='form-groups'>
+      <navigator url='/pages/componet/utils/index' class="form-group form-group-access">
+        <div class="form-group-bd">Utils(常用类)</div>
+				<div class="form-group-ft"></div>
+      </navigator>
+      <navigator url='/pages/componet/buttons/index' class="form-group form-group-access">
+        <div class="form-group-bd">Buttons(按钮)</div>
+				<div class="form-group-ft"></div>
+      </navigator>
+      <navigator url='/pages/componet/forms/index' class="form-group form-group-access">
+        <div class="form-group-bd">forms(表单)</div>
+				<div class="form-group-ft"></div>
+      </navigator>
+      <navigator url='/pages/componet/forms/index' class="form-group form-group-access">
+        <div class="form-group-bd">list(列表)</div>
+				<div class="form-group-ft"></div>
+      </navigator>
+      <navigator url='/pages/componet/table/index' class="form-group form-group-access">
+        <div class="form-group-bd">table(表格)</div>
+				<div class="form-group-ft"></div>
+      </navigator>
+      <navigator url='/pages/componet/cards/index' class="form-group form-group-access">
+        <div class="form-group-bd">cards(卡片)</div>
+				<div class="form-group-ft"></div>
+      </navigator>
+      <navigator url='/pages/componet/media/index' class="form-group form-group-access">
+        <div class="form-group-bd">media</div>
+				<div class="form-group-ft"></div>
+      </navigator>
+      <navigator url='/pages/componet/loading/index' class="form-group form-group-access">
+        <div class="form-group-bd">loading(加载)</div>
+				<div class="form-group-ft"></div>
+      </navigator>
+      <navigator url='/pages/componet/login/index' class="form-group form-group-access">
+        <div class="form-group-bd">login(登录)</div>
+				<div class="form-group-ft"></div>
+      </navigator>
+      <navigator url='/pages/componet/alert/index' class="form-group form-group-access">
+        <div class="form-group-bd">Alert(弹出层)</div>
+				<div class="form-group-ft"></div>
+      </navigator>
+    </view>
+
+  </view>
+</view>

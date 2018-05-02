@@ -1,0 +1,101 @@
+<!--pages/componet/forms/index.wxml-->
+<import src="../../common/header.wxml" />
+
+<view class='page page-forms'>
+  <template is="header" data="{{title: 'forms(表单)'}}"/>
+  <view class='page-body'>
+    <view class='form-groups-title'>表单</view>
+    <view class='form-groups'>
+      <view class='form-group'>
+        <view class='form-group-hd'>
+          <view class='form-group-label'>
+            姓名
+          </view>
+        </view>
+        <view class='form-group-bd'>
+          <input class='form-control' type='text' placeholder='请输入姓名'></input>
+        </view>
+      </view><!--/form-group  -->
+      <view class='form-group form-group-vcode'>
+        <view class='form-group-hd'>
+          <view class='form-group-label'>
+            手机号
+          </view>
+        </view>
+        <view class='form-group-bd'>
+          <input class='form-control' type='text' placeholder='请输入手机号码'></input>
+        </view>
+        <view class="form-group-ft">
+          <button class="btn-vcode">获取验证码</button>
+        </view>
+      </view><!--/form-group  -->
+      <view class='form-group form-group-vcode'>
+        <view class='form-group-hd'>
+          <view class='form-group-label'>
+            验证码
+          </view>
+        </view>
+        <view class='form-group-bd'>
+          <input class='form-control' type='text' placeholder='请输入验证码'></input>
+        </view>
+        <view class="form-group-ft">
+          <image class='btn-vcode-image' src="/images/vcode.jpg" style="width: 108px"></image>
+        </view>
+      </view><!--/form-group  -->
+      <view class='form-groups-title mt-5'>文本框</view>
+      <view class='form-groups'>
+        <view class='form-group'>
+          <view class='form-group-bd'>
+            <input class='form-control' type='text' placeholder='请输入文本框'></input>
+          </view>
+        </view>
+      </view> <!--/form-group-->
+      <view class='form-groups-title mt-5'>文本域</view>
+      <view class='form-groups'>
+        <view class='form-group'>
+          <view class='form-group-bd'>
+            <textarea class="form-control-textarea" placeholder="请输入文本" rows="3"></textarea>
+            <view class='form-textarea-counter'><text>0</text>/200</view>
+          </view>
+        </view>
+      </view> <!--/form-group-->
+      <view class='form-groups-title mt-5'>选择</view>
+      <view class='form-groups'>
+        <view class='form-group  form-group-select  form-group-select-before'>
+          <view class='form-group-hd' style="width: 105px">
+            <picker bindchange="bindCountryCodeChange" value="{{countryCodeIndex}}" range="{{countryCodes}}">
+              <view class="form-control-select">{{countryCodes[countryCodeIndex]}}</view>
+            </picker>
+          </view>
+          <view class='form-group-bd'>
+            <input class="form-control" type="text" name="" placeholder="请输入文本"></input>
+          </view>
+        </view>
+      </view> <!--/form-group-->
+      <view class='form-groups'>
+        <view class='form-group form-group-select'>
+          <view class='form-group-bd'>
+            <picker bindchange="bindCountryCodeChange" value="{{countryCodeIndex}}" range="{{countryCodes}}">
+              <view class="form-control-select">{{countryCodes[countryCodeIndex]}}</view>
+            </picker>
+          </view>
+        </view>
+      </view> <!--/form-group-->
+      <view class='form-groups'>
+        <view class='form-group form-group-select form-group-select-after'>
+          <view class='form-group-hd'>
+            <view class='form-group-label'>国家/地区</view>
+          </view>
+          <view class='form-group-bd'>
+            <picker bindchange="bindCountryCodeChange" value="{{countryCodeIndex}}" range="{{countryCodes}}">
+              <view class="form-control-select">{{countryCodes[countryCodeIndex]}}</view>
+            </picker>
+          </view>
+        </view>
+      </view> <!--/form-group-->
+      <view class='form-btn-area'>
+        <button class="btn btn-primary btn-block">确定</button>
+      </view>
+    </view>
+  </view>
+</view>

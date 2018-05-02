@@ -1,0 +1,82 @@
+{
+	"description": "项目配置文件。",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "1.9.98",
+	"appid": "touristappid",
+	"projectname": "shupeng-ui-wxss",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": 0,
+					"name": "buttons",
+					"pathName": "pages/componet/buttons/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "forms",
+					"pathName": "pages/componet/forms/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "cards",
+					"pathName": "pages/componet/cards/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "midia",
+					"pathName": "pages/componet/media/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "loading",
+					"pathName": "pages/componet/loading/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "login",
+					"pathName": "pages/componet/login/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "alert",
+					"pathName": "pages/componet/alert/index",
+					"query": ""
+				}
+			]
+		}
+	}
+}

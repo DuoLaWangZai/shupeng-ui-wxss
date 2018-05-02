@@ -1,0 +1,20 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/componet/buttons/index",
+    "pages/componet/cards/index",
+    "pages/componet/forms/index",
+    "pages/componet/list/index",
+    "pages/componet/loading/index",
+    "pages/componet/login/index",
+    "pages/componet/media/index",
+    "pages/componet/alert/index",
+    "pages/componet/utils/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  }
+}

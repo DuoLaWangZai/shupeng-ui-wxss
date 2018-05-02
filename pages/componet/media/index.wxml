@@ -1,0 +1,76 @@
+<!--pages/componet/media/index.wxml-->
+<import src="../../common/header.wxml" />
+<view class='page page-media'>
+  <template is="header" data="{{title: 'media'}}"/>
+  <view class='page-body'>
+    
+    <view class="media">
+      <image class="mr-3"  style="width: 3rem;height:3rem;" src="/images/holder.jpg" mode='aspectFill'></image>
+      <view class="media-body">
+        <view class="mt-0 h5">标题</view>
+        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+      </view>
+    </view> <!--midia-->
+
+    <view class="media mt-4">
+      <image class="mr-3 align-self-start"  style="width: 3rem;height:3rem;" src="/images/holder.jpg" mode='aspectFill'></image>
+      <view class="media-body">
+        <view class="mt-0 h5">标题</view>
+        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+      </view>
+    </view> <!--midia-->
+
+    <view class="media mt-4">
+      <image class="mr-3 align-self-center"  style="width: 3rem;height:3rem;" src="/images/holder.jpg" mode='aspectFill'></image>
+      <view class="media-body">
+        <view class="mt-0 h5">标题</view>
+        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+      </view>
+    </view> <!--midia-->
+
+
+    <view class="media mt-4">
+      <image class="mr-3 align-self-end"  style="width: 3rem;height:3rem;" src="/images/holder.jpg" mode='aspectFill'></image>
+      <view class="media-body">
+        <view class="mt-0 h5">标题</view>
+        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+      </view>
+    </view> <!--midia-->
+
+    <view class='media-group mt-5'>
+      <view class="media">
+        <image class="mr-3"  style="width: 3rem;height:3rem;" src="/images/holder.jpg" mode='aspectFill'></image>
+        <view class="media-body">
+          <view class="mt-0 h5">标题</view>
+          Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+        </view>
+      </view> <!--midia-->
+      <view class="media">
+        <image class="mr-3"  style="width: 3rem;height:3rem;" src="/images/holder.jpg" mode='aspectFill'></image>
+        <view class="media-body">
+          <view class="mt-0 h5">标题</view>
+          Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+        </view>
+      </view> <!--midia-->
+      <view class="media">
+        <image class="mr-3"  style="width: 3rem;height:3rem;" src="/images/holder.jpg" mode='aspectFill'></image>
+        <view class="media-body">
+          <view class="mt-0 h5">标题</view>
+          Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+        </view>
+      </view> <!--midia-->
+      <view class="media">
+        <image class="mr-3"  style="width: 3rem;height:3rem;" src="/images/holder.jpg" mode='aspectFill'></image>
+        <view class="media-body">
+          <view class="mt-0 h5">标题</view>
+          Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+        </view>
+      </view> <!--midia-->
+    </view>
+      
+
+
+
+
+  </view>
+</view>

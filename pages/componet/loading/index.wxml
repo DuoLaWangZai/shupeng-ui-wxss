@@ -1,0 +1,34 @@
+<!--pages/componet/loading/index.wxml-->
+<import src="../../common/header.wxml" />
+<view class='page page-cards'>
+  <template is="header" data="{{title: 'Loading(加载效果)'}}"/>
+  <view class='page-body'>
+    
+    <view class="loadmore">
+      <view class="loading">
+        <text class="spinner-blade-2m9m"></text>
+        <text class="spinner-blade-2m9m"></text>
+        <text class="spinner-blade-2m9m"></text>
+        <text class="spinner-blade-2m9m"></text>
+        <text class="spinner-blade-2m9m"></text>
+        <text class="spinner-blade-2m9m"></text>
+        <text class="spinner-blade-2m9m"></text>
+        <text class="spinner-blade-2m9m"></text>
+        <text class="spinner-blade-2m9m"></text>
+        <text class="spinner-blade-2m9m"></text>
+        <text class="spinner-blade-2m9m"></text>
+        <text class="spinner-blade-2m9m"></text>
+      </view>
+      <text class="loadmore-tips">正在加载</text>
+    </view><!--loadmore-->  
+
+    <view class="loadmore loadmore-line">
+      <text class="loadmore-tips">暂无数据</text>
+    </view><!--loadmore-->
+
+    <view class="loadmore loadmore-line">
+      <text class="loadmore-tips">没有更多啦</text>
+    </view><!--loadmore-->
+
+  </view>
+</view>

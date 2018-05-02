@@ -1,0 +1,144 @@
+<!--pages/componet/cards/index.wxml-->
+<import src="../../common/header.wxml" />
+<view class='page page-cards'>
+  <template is="header" data="{{title: 'cards(卡片)'}}"/>
+  <view class='page-body'>
+
+    <view class="card" style="width: 18rem;">
+      <image class="card-img-top" src="/images/holder.jpg" mode='aspectFill'></image>
+      <view class="card-body">
+        <view class="card-title">Card title</view>
+        <view class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</view>
+        <navigator class="btn btn-primary">Go somewhere</navigator>
+      </view>
+    </view>
+
+    <view class="card mt-2">
+      <view class="card-body">
+        This is some text within a card body.
+      </view>
+    </view>
+
+    <view class="card-group mt-4">
+      <view class="card">
+        <image class="card-img-top" src="/images/holder.jpg" mode='aspectFill'></image>
+        <view class="card-body">
+          <view class="card-title">Card title</view>
+          <view class="card-text">This is a wider card with suviewvieworting text below as a natural lead-in to additional content. This content is a little bit longer.</view>
+          <view class="card-text"><text class="text-muted">Last uviewdated 3 mins ago</text></view>
+        </view>
+      </view>
+      <view class="card">
+        <image class="card-img-top" src="/images/holder.jpg" mode='aspectFill'></image>
+        <view class="card-body">
+          <view class="card-title">Card title</view>
+          <view class="card-text">This card has suviewvieworting text below as a natural lead-in to additional content.</view>
+          <view class="card-text"><text class="text-muted">Last uviewdated 3 mins ago</text></view>
+        </view>
+      </view>
+      <view class="card">
+        <image class="card-img-top" src="/images/holder.jpg" mode='aspectFill'></image>
+        <view class="card-body">
+          <view class="card-title">Card title</view>
+          <view class="card-text">This is a wider card with suviewvieworting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</view>
+          <view class="card-text"><text class="text-muted">Last uviewdated 3 mins ago</text></view>
+        </view>
+      </view>
+    </view>
+
+
+    <view class="card-deck mt-4">
+      <view class="card">
+        <image class="card-img-top" src="/images/holder.jpg" mode='aspectFill'></image>
+        <view class="card-body">
+          <view class="card-title">Card title</view>
+          <view class="card-text">This is a longer card with suviewvieworting text below as a natural lead-in to additional content. This content is a little bit longer.</view>
+          <view class="card-text"><text class="text-muted">Last uviewdated 3 mins ago</text></view>
+        </view>
+      </view>
+      <view class="card">
+        <image class="card-img-top" src="/images/holder.jpg" mode='aspectFill'></image>
+        <view class="card-body">
+          <view class="card-title">Card title</view>
+          <view class="card-text">This card has suviewvieworting text below as a natural lead-in to additional content.</view>
+          <view class="card-text"><text class="text-muted">Last uviewdated 3 mins ago</text></view>
+        </view>
+      </view>
+      <view class="card">
+        <image class="card-img-top" src="/images/holder.jpg" mode='aspectFill'></image>
+        <view class="card-body">
+          <view class="card-title">Card title</view>
+          <view class="card-text">This is a wider card with suviewvieworting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</view>
+          <view class="card-text"><text class="text-muted">Last uviewdated 3 mins ago</text></view>
+        </view>
+      </view>
+    </view>
+
+
+    <view class="card-columns mt-2">
+      <view class="card">
+        <image class="card-img-top" src="/images/holder.jpg" mode='aspectFill'></image>
+        <view class="card-body">
+          <view class="card-title">Card title that wraps to a new line</view>
+          <view class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</view>
+        </view>
+      </view>
+
+      <view class="card p-3">
+        <view class="blockquote mb-0 card-body">
+          <view>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</view>
+          <view class="blockquote-footer">
+              Someone famous in 
+          </view>
+        </view>
+      </view>
+
+      <view class="card">
+        <image class="card-img-top" src="/images/holder.jpg" mode='aspectFill'></image>
+        <view class="card-body">
+          <view class="card-title">Card title</view>
+          <view class="card-text">This card has supporting text below as a natural lead-in to additional content.</view>
+          <view class="card-text">Last updated 3 mins ago</view>
+        </view>
+      </view>
+
+      <view class="card bg-primary text-white text-center p-3">
+        <view class="blockquote mb-0">
+          <view>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</view>
+          <view class="blockquote-footer">
+            <view>
+              Someone famous in 
+            </view>
+          </view>
+        </view>
+      </view>
+
+      <view class="card text-center">
+        <view class="card-body">
+          <view class="card-title">Card title</view>
+          <view class="card-text">This card has supporting text below as a natural lead-in to additional content.</view>
+          <view class="card-text">Last updated 3 mins ago</view>
+        </view>
+      </view>
+
+      <view class="card p-3 text-right">
+        <view class="blockquote mb-0">
+          <view>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</view>
+          <view class="blockquote-footer">
+              Someone famous in 
+          </view>
+        </view>
+      </view>
+
+
+      <view class="card">
+        <view class="card-body">
+          <view class="card-title">Card title</view>
+          <view class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</view>
+          <view class="card-text">Last updated 3 mins ago</view>
+        </view>
+      </view>
+    </view>
+
+  </view>
+</view>

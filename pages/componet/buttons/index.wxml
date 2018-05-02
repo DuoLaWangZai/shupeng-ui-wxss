@@ -1,0 +1,124 @@
+<!--pages/componet/buttons/index.wxml-->
+<import src="../../common/header.wxml" />
+<view class='page page-buttons'>
+  <template is="header" data="{{title: 'button(按钮)'}}"/>
+  <view class='page-body'>
+    <view>
+      <button class='btn btn-primary'>btn-primary</button>
+    </view>
+    <view class='mt-2'>
+      <button class='btn btn-secondary'>btn-secondary</button>
+    </view>
+    <view class='mt-2'>
+      <button class='btn btn-info'>btn-info</button>
+    </view>
+    <view class='mt-2'>
+      <button class='btn btn-success'>btn-success</button>
+    </view>
+    <view class='mt-2'>
+      <button class='btn btn-warning'>btn-warning</button>
+    </view>
+    <view class='mt-2'>
+      <button class='btn btn-danger'>btn-danger</button>
+    </view>
+    <view class='mt-2'>
+      <button class='btn btn-outline-primary'>btn-outline-primary</button>
+    </view>
+    <view class='mt-2'>
+      <button class='btn btn-outline-info'>btn-outline-info</button>
+    </view>
+    <view class='mt-2'>
+      <button class='btn btn-outline-success'>btn-outline-success</button>
+    </view>
+    <view class='mt-2'>
+      <button class='btn btn-outline-warning'>btn-outline-warning</button>
+    </view>
+    <view class='mt-2'>
+      <button class='btn btn-outline-danger'>btn-outline-danger</button>
+    </view>
+    <view class='mt-2'>
+      <button class='btn btn-link'>btn-link</button>
+    </view>
+    <view class='mt-2'>
+      <button class='btn btn-primary btn-block'>btn-primary btn-block</button>
+    </view>
+    <view class="mt-4">
+      <button class='btn btn-lg btn-primary'>btn-primary</button>
+    </view>
+    <view class='mt-2'>
+      <button class='btn btn-lg btn-secondary'>btn-secondary</button>
+    </view>
+    <view class='mt-2'>
+      <button class='btn btn-lg btn-info'>btn-info</button>
+    </view>
+    <view class='mt-2'>
+      <button class='btn btn-lg btn-success'>btn-success</button>
+    </view>
+    <view class='mt-2'>
+      <button class='btn btn-lg btn-warning'>btn-warning</button>
+    </view>
+    <view class='mt-2'>
+      <button class='btn btn-lg btn-danger'>btn-danger</button>
+    </view>
+    <view class='mt-2'>
+      <button class='btn btn-lg btn-outline-primary'>btn-outline-primary</button>
+    </view>
+    <view class='mt-2'>
+      <button class='btn btn-lg btn-outline-info'>btn-outline-info</button>
+    </view>
+    <view class='mt-2'>
+      <button class='btn btn-lg btn-outline-success'>btn-outline-success</button>
+    </view>
+    <view class='mt-2'>
+      <button class='btn btn-lg btn-outline-warning'>btn-outline-warning</button>
+    </view>
+    <view class='mt-2'>
+      <button class='btn btn-lg btn-outline-danger'>btn-outline-danger</button>
+    </view>
+    <view class='mt-2'>
+      <button class='btn btn-lg btn-link'>btn-link</button>
+    </view>
+    <view class='mt-2'>
+      <button class='btn btn-lg btn-primary btn-block'>btn-primary btn-block</button>
+    </view>
+    <view class="mt-4">
+      <button class='btn btn-sm btn-primary'>btn-primary</button>
+    </view>
+    <view class='mt-2'>
+      <button class='btn btn-sm btn-secondary'>btn-secondary</button>
+    </view>
+    <view class='mt-2'>
+      <button class='btn btn-sm btn-info'>btn-info</button>
+    </view>
+    <view class='mt-2'>
+      <button class='btn btn-sm btn-success'>btn-success</button>
+    </view>
+    <view class='mt-2'>
+      <button class='btn btn-sm btn-warning'>btn-warning</button>
+    </view>
+    <view class='mt-2'>
+      <button class='btn btn-sm btn-danger'>btn-danger</button>
+    </view>
+    <view class='mt-2'>
+      <button class='btn btn-sm btn-outline-primary'>btn-outline-primary</button>
+    </view>
+    <view class='mt-2'>
+      <button class='btn btn-sm btn-outline-info'>btn-outline-info</button>
+    </view>
+    <view class='mt-2'>
+      <button class='btn btn-sm btn-outline-success'>btn-outline-success</button>
+    </view>
+    <view class='mt-2'>
+      <button class='btn btn-sm btn-outline-warning'>btn-outline-warning</button>
+    </view>
+    <view class='mt-2'>
+      <button class='btn btn-sm btn-outline-danger'>btn-outline-danger</button>
+    </view>
+    <view class='mt-2'>
+      <button class='btn btn-sm btn-link'>btn-link</button>
+    </view>
+    <view class='mt-2'>
+      <button class='btn btn-sm btn-primary btn-block'>btn-primary btn-block</button>
+    </view>
+  </view>
+</view>

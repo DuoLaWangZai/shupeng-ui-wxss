@@ -1,0 +1,22 @@
+/**app.wxss**/
+@import 'style/shupeng-ui.wxss';
+.page-body,
+page{
+  box-sizing: border-box;
+  background-color: #f8f8f8;
+}
+.page-body{
+  padding: 0 15px;
+}
+.page-header{
+  padding: 40px;
+}
+.page-header-title{
+  text-align: left;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.page-forms .page-body{
+  padding: 0;
+}
