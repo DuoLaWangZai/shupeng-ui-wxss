@@ -75,6 +75,18 @@
 					"name": "alert",
 					"pathName": "pages/componet/alert/index",
 					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "utils",
+					"pathName": "pages/componet/utils/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "table",
+					"pathName": "pages/componet/table/index",
+					"query": ""
 				}
 			]
 		}

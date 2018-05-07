@@ -1,2 +1,991 @@
 <!--pages/componet/utils/index.wxml-->
-<text>pages/componet/utils/index.wxml</text>
+<import src="../../common/header.wxml" />
+<view class='page page-utils'>
+  <template is="header" data="{{title: 'utils'}}"/>
+  <view class='page-body'>
+    
+
+    <view class='table-title'>text</view>
+    <view class='table'>
+
+      <view class='tr'>
+        <view class='td'>
+          text-justify 
+        </view>
+        <view class='td'>
+          text-align: justify !important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          text-nowrap
+        </view>
+        <view class='td'>
+          white-space: nowrap !important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          text-truncate
+        </view>
+        <view class='td'>
+          overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          text-left
+        </view>
+        <view class='td'>
+          text-align: left !important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          text-right
+        </view>
+        <view class='td'>
+          text-align: right !important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          text-center
+        </view>
+        <view class='td'>
+          text-align: center !important;
+        </view>
+      </view>
+
+    </view>
+    <!--/table  -->
+
+    <view class='table-title'>align-self</view>
+    <view class='table'>
+      
+      <view class='tr'>
+        <view class='td'>
+          align-self-auto
+        </view>
+        <view class='td'>
+          -ms-flex-item-align: auto !important;
+  				align-self: auto !important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          align-self-start
+        </view>
+        <view class='td'>
+          -ms-flex-item-align: start !important;
+					align-self: flex-start !important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          align-self-end
+        </view>
+        <view class='td'>
+          -ms-flex-item-align: end !important;
+					align-self: flex-end !important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          align-self-center
+        </view>
+        <view class='td'>
+          -ms-flex-item-align: center !important;
+  				align-self: center !important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          align-self-baseline
+        </view>
+        <view class='td'>
+          -ms-flex-item-align: baseline !important;
+					align-self: baseline !important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          align-self-stretch
+        </view>
+        <view class='td'>
+          -ms-flex-item-align: stretch !important;
+						align-self: stretch !important;
+        </view>
+      </view>
+
+    </view>
+    <!--/table  -->
+
+    <view class='table-title'>font-size</view>
+    <view class='table'>
+
+      <view class='tr'>
+        <view class='td'>
+          h1
+        </view>
+        <view class='td'>
+          font-size: 2.5rem;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          h2
+        </view>
+        <view class='td'>
+          font-size: 2rem;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          h3
+        </view>
+        <view class='td'>
+          font-size: 1.75rem; 
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          h4
+        </view>
+        <view class='td'>
+          font-size: 1.5rem;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          h5
+        </view>
+        <view class='td'>
+          font-size: 1.25rem;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          h6
+        </view>
+        <view class='td'>
+          font-size: 1rem;
+        </view>
+      </view>
+
+    </view>
+    <!--/table  -->
+
+    <view class='table-title'>margin</view>
+    <view class='table'>
+
+      <view class='tr'>
+        <view class='td'>
+          m-0
+        </view>
+        <view class='td'>
+          margin: 0!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          mx-0
+        </view>
+        <view class='td'>
+          margin-left: 0!important;
+					margin-right: 0!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          my-0
+        </view>
+        <view class='td'>
+          margin-top: 0!important;
+					margin-bottom: 0!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          mt-0
+        </view>
+        <view class='td'>
+          margin-top: 0!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          mr-0
+        </view>
+        <view class='td'>
+          margin-right: 0!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          mb-0
+        </view>
+        <view class='td'>
+          margin-bottom: 0!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          ml-0
+        </view>
+        <view class='td'>
+          margin-left: 0!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          m-1
+        </view>
+        <view class='td'>
+          margin: 0.25rem!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          mx-1
+        </view>
+        <view class='td'>
+          margin-left: 0.25rem!important;
+          margin-right: 0.25rem!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          my-1
+        </view>
+        <view class='td'>
+          margin-top: 0.25rem!important;
+          margin-bottom: 0.25rem!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          mt-1
+        </view>
+        <view class='td'>
+          margin-top: 0.25rem!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          mr-1
+        </view>
+        <view class='td'>
+          margin-right: 0.25rem!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          mb-1
+        </view>
+        <view class='td'>
+          margin-bottom: 0.25rem!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          ml-1
+        </view>
+        <view class='td'>
+          margin-left: 0.25rem!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          m-2
+        </view>
+        <view class='td'>
+          margin: 0.5rem!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          mx-2
+        </view>
+        <view class='td'>
+          margin-left: 0.5rem!important;
+          margin-right: 0.5rem!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          my-2
+        </view>
+        <view class='td'>
+          margin-top: 0.5rem!important;
+          margin-bottom: 0.5rem!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          mt-2
+        </view>
+        <view class='td'>
+          margin-top: 0.5rem!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          mr-2
+        </view>
+        <view class='td'>
+          margin-right: 0.5rem!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          mb-2
+        </view>
+        <view class='td'>
+          margin-bottom: 0.5rem!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          ml-2
+        </view>
+        <view class='td'>
+          margin-left: 0.5rem!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          m-3
+        </view>
+        <view class='td'>
+          margin: 1rem!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          mx-3
+        </view>
+        <view class='td'>
+          margin-left: 1rem!important;
+          margin-right: 1rem!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          my-3
+        </view>
+        <view class='td'>
+          margin-top: 1rem!important;
+          margin-bottom: 1rem!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          mt-3
+        </view>
+        <view class='td'>
+          margin-top: 1rem!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          mr-3
+        </view>
+        <view class='td'>
+          margin-right: 1rem!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          mb-3
+        </view>
+        <view class='td'>
+          margin-bottom: 1rem!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          ml-3
+        </view>
+        <view class='td'>
+          margin-left: 1rem!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          m-4
+        </view>
+        <view class='td'>
+          margin: 1.5rem!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          mx-4
+        </view>
+        <view class='td'>
+          margin-left: 1.5rem!important;
+          margin-right: 1.5rem!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          my-4
+        </view>
+        <view class='td'>
+          margin-top: 1.5rem!important;
+          margin-bottom: 1.5rem!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          mt-4
+        </view>
+        <view class='td'>
+          margin-top: 1.5rem!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          mr-4
+        </view>
+        <view class='td'>
+          margin-right: 1.5rem!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          mb-4
+        </view>
+        <view class='td'>
+          margin-bottom: 1.5rem!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          ml-4
+        </view>
+        <view class='td'>
+          margin-left: 1.5rem!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          m-5
+        </view>
+        <view class='td'>
+          margin: 3rem!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          mx-5
+        </view>
+        <view class='td'>
+          margin-left: 3rem!important;
+          margin-right: 3rem!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          my-5
+        </view>
+        <view class='td'>
+          margin-top: 3rem!important;
+          margin-bottom: 3rem!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          mt-5
+        </view>
+        <view class='td'>
+          margin-top: 3rem!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          mr-5
+        </view>
+        <view class='td'>
+          margin-right: 3rem!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          mb-5
+        </view>
+        <view class='td'>
+          margin-bottom: 3rem!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          ml-5
+        </view>
+        <view class='td'>
+          margin-left: 3rem!important;
+        </view>
+      </view>
+
+    </view>
+    <!--/table  -->
+
+
+    <view class='table-title'>padding</view>
+    <view class='table'>
+
+      <view class='tr'>
+        <view class='td'>
+          p-0
+        </view>
+        <view class='td'>
+          padding: 0!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          px-0
+        </view>
+        <view class='td'>
+          padding-left: 0!important;
+          padding-right: 0!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          py-0
+        </view>
+        <view class='td'>
+          padding-top: 0!important;
+          padding-bottom: 0!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          pt-0
+        </view>
+        <view class='td'>
+          padding-top: 0!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          pr-0
+        </view>
+        <view class='td'>
+          padding-right: 0!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          pb-0
+        </view>
+        <view class='td'>
+          padding-bottom: 0!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          pl-0
+        </view>
+        <view class='td'>
+          padding-left: 0!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          p-1
+        </view>
+        <view class='td'>
+          padding: 0.25rem!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          px-1
+        </view>
+        <view class='td'>
+          padding-left: 0.25rem!important;
+          padding-right: 0.25rem!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          py-1
+        </view>
+        <view class='td'>
+          padding-top: 0.25rem!important;
+          padding-bottom: 0.25rem!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          pt-1
+        </view>
+        <view class='td'>
+          padding-top: 0.25rem!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          pr-1
+        </view>
+        <view class='td'>
+          padding-right: 0.25rem!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          pb-1
+        </view>
+        <view class='td'>
+          padding-bottom: 0.25rem!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          pl-1
+        </view>
+        <view class='td'>
+          padding-left: 0.25rem!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          p-2
+        </view>
+        <view class='td'>
+          padding: 0.5rem!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          px-2
+        </view>
+        <view class='td'>
+          padding-left: 0.5rem!important;
+          padding-right: 0.5rem!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          py-2
+        </view>
+        <view class='td'>
+          padding-top: 0.5rem!important;
+          padding-bottom: 0.5rem!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          pt-2
+        </view>
+        <view class='td'>
+          padding-top: 0.5rem!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          pr-2
+        </view>
+        <view class='td'>
+          padding-right: 0.5rem!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          pb-2
+        </view>
+        <view class='td'>
+          padding-bottom: 0.5rem!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          pl-2
+        </view>
+        <view class='td'>
+          padding-left: 0.5rem!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          p-3
+        </view>
+        <view class='td'>
+          padding: 1rem!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          px-3
+        </view>
+        <view class='td'>
+          padding-left: 1rem!important;
+          padding-right: 1rem!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          py-3
+        </view>
+        <view class='td'>
+          padding-top: 1rem!important;
+          padding-bottom: 1rem!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          pt-3
+        </view>
+        <view class='td'>
+          padding-top: 1rem!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          pr-3
+        </view>
+        <view class='td'>
+          padding-right: 1rem!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          pb-3
+        </view>
+        <view class='td'>
+          padding-bottom: 1rem!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          pl-3
+        </view>
+        <view class='td'>
+          padding-left: 1rem!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          p-4
+        </view>
+        <view class='td'>
+          padding: 1.5rem!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          px-4
+        </view>
+        <view class='td'>
+          padding-left: 1.5rem!important;
+          padding-right: 1.5rem!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          py-4
+        </view>
+        <view class='td'>
+          padding-top: 1.5rem!important;
+          padding-bottom: 1.5rem!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          pt-4
+        </view>
+        <view class='td'>
+          padding-top: 1.5rem!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          pr-4
+        </view>
+        <view class='td'>
+          padding-right: 1.5rem!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          pb-4
+        </view>
+        <view class='td'>
+          padding-bottom: 1.5rem!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          pl-4
+        </view>
+        <view class='td'>
+          padding-left: 1.5rem!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          p-5
+        </view>
+        <view class='td'>
+          padding: 3rem!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          px-5
+        </view>
+        <view class='td'>
+          padding-left: 3rem!important;
+          padding-right: 3rem!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          py-5
+        </view>
+        <view class='td'>
+          padding-top: 3rem!important;
+          padding-bottom: 3rem!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          pt-5
+        </view>
+        <view class='td'>
+          padding-top: 3rem!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          pr-5
+        </view>
+        <view class='td'>
+          padding-right: 3rem!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          pb-5
+        </view>
+        <view class='td'>
+          padding-bottom: 3rem!important;
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+          pl-5
+        </view>
+        <view class='td'>
+          padding-left: 3rem!important;
+        </view>
+      </view>
+
+    </view>
+    <!--/table  -->
+        
+    
+
+
+  </view>
+</view>

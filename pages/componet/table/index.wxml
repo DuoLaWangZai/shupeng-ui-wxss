@@ -1,0 +1,40 @@
+<!--pages/componet/table/index.wxml-->
+<import src="../../common/header.wxml" />
+<view class='page page-media'>
+  <template is="header" data="{{title: 'table（表格）'}}"/>
+  <view class='page-body'>
+
+    <view class='table'>
+
+      <view class='tr'>
+        <view class='th'>
+        fitst
+        </view>
+        <view class='th'>
+        second
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+        wangshupeng
+        </view>
+        <view class='td'>
+        superman
+        </view>
+      </view>
+
+      <view class='tr'>
+        <view class='td'>
+        wangshupeng
+        </view>
+        <view class='td'>
+        superman
+        </view>
+      </view>
+
+    </view>
+    <!--/table  -->
+
+  </view>
+</view>

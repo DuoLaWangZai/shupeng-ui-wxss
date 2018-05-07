@@ -1,1 +1,10 @@
 /* pages/componet/utils/index.wxss */
+.table{
+  display: table;
+}
+.tr{
+  display: table-row;
+}
+.td{
+  display: table-cell;
+}

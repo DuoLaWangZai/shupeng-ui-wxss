@@ -9,7 +9,8 @@
     "pages/componet/login/index",
     "pages/componet/media/index",
     "pages/componet/alert/index",
-    "pages/componet/utils/index"
+    "pages/componet/utils/index",
+    "pages/componet/table/index"
   ],
   "window":{
     "backgroundTextStyle":"light",
